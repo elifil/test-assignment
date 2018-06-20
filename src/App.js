@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import {Header, CountryList} from "./components";
+import {Header, PageCountryList} from "./components";
 
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <CountryList />
+        <PageCountryList />
       </div>
     );
   }
