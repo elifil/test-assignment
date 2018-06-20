@@ -3,9 +3,9 @@ import React from 'react';
 export const CountryItemList = ({ ids }) => {
   return (
     <ol>
-      {ids.map(id => (
-        <li key={id}>
-          <div>country item</div>
+      {ids.map((country = {}) => (
+        <li key={country.name}>
+          <div>{country.name}</div>
         </li>
       ))}
     </ol>
